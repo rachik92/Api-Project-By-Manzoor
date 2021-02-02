@@ -1,0 +1,19 @@
+2021-02-01 10:29:16,411 INFO  [log] my sessionId is 80101811881756
+2021-02-01 10:29:16,435 INFO  [log] my username is ExpertzMe
+2021-02-01 10:29:16,987 INFO  [log] My username is ExpertzMe
+2021-02-01 10:29:16,996 INFO  [log] Proceed to Purchase
+2021-02-01 10:29:17,379 INFO  [log] My username is ExpertzMe
+2021-02-01 10:29:17,381 INFO  [log] Proceed to Purchase
+2021-02-01 10:29:17,503 INFO  [log] Status =FINISHED, time taken to complete the execution is 222 ms
+2021-02-01 10:29:17,503 INFO  [log] [com.eviware.soapui.impl.wsdl.teststeps.WsdlTestStepResult@5d10b59b, com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStepResult@2cc0199a, com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStepResult@7717e1ba, com.eviware.soapui.impl.wsdl.teststeps.WsdlTestStepResult@64c550dc, com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStepResult@3ca18db2, com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStepResult@10015f75]
+2021-02-01 10:29:17,527 INFO  [log] number of test steps executed are 6
+2021-02-01 10:35:01,082 INFO  [log] ecdbd6e68c1b8b92297929f928b0d73e
+2021-02-01 10:40:44,179 INFO  [log] 2c7ebf7600931cad2de6675bea5f00a3
+2021-02-01 10:48:38,593 INFO  [log] 1711e554f8903de8f456ff8a19b36ae9
+2021-02-01 10:52:10,591 INFO  [log] 43de2222511cdfd568209a4af8cec104
+2021-02-01 11:24:43,826 INFO  [log] ed36bc05ba844a4fef60fec838fce1cd
+2021-02-02 10:56:10,832 INFO  [log] thr product id is SKU00018
+2021-02-02 10:56:16,060 INFO  [log] thr product id is SKU00018
+2021-02-02 10:56:18,109 INFO  [log] Status =FINISHED, time taken to complete the execution is 4811 ms
+2021-02-02 10:56:18,109 INFO  [log] [com.eviware.soapui.impl.wsdl.teststeps.WsdlTestStepResult@1a3317b4, com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStepResult@7c197561, com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStepResult@5a09ac33, com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStepResult@2a044db0, com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStepResult@288861f3, com.eviware.soapui.impl.wsdl.teststeps.WsdlTestRequestStepResult@1f8dbbfe]
+2021-02-02 10:56:18,132 INFO  [log] number of test steps executed are 6

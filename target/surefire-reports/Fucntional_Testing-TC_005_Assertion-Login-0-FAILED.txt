@@ -1,0 +1,58 @@
+Status: FAILED
+Time Taken: 1396
+Size: 268
+Timestamp: Mon Feb 01 10:29:15 IST 2021
+TestStep: Login
+
+----------------- Messages ------------------------------
+[XPath Match] XPathContains comparison failed for path [//*:sessionId], expecting [5390259332642966], actual was [80101811881756]
+[XQuery Match] XQuery Match Assertion failed for path [//*:sessionId] : Exception:org.custommonkey.xmlunit.Diff
+[different] Expected text value '5390259332642966' but was '80101811881756' - comparing <ns:sessionId ...>5390259332642966</ns:sessionId> at /sessionId[1]/text()[1] to <ns:sessionId ...>80101811881756</ns:sessionId> at /sessionId[1]/text()[1]
+
+
+----------------- Properties ------------------------------
+Endpoint: http://localhost:8088/mockShoppingService
+Encoding: UTF-8
+
+---------------- Request ---------------------------
+Request Headers: SOAPAction : "http://expertz.me/service/eCommerce/ShoppingService/1.0/login"
+Connection : Keep-Alive
+User-Agent : Apache-HttpClient/4.1.1 (java 1.5)
+Host : localhost:8088
+Accept-Encoding : gzip,deflate
+Content-Length : 374
+Content-Type : text/xml;charset=UTF-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://expertz.me/data/eCommerce/ShoppingService/1.0">
+   \r
+   <soapenv:Header/>
+   \r
+   <soapenv:Body>
+      \r
+      <ns:loginRequest>
+         \r
+         <ns:username>ExpertzMe</ns:username>
+         \r
+         <ns:password>Welcome1</ns:password>
+         \r
+      </ns:loginRequest>
+      \r
+   </soapenv:Body>
+   \r
+</soapenv:Envelope>
+
+---------------- Response --------------------------
+Response Headers: Server : Jetty(6.1.26)
+Content-Encoding : gzip
+#status# : HTTP/1.1 200 OK
+Content-Length : 181
+Content-Type : text/xml; charset=utf-8
+
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns="http://expertz.me/data/eCommerce/ShoppingService/1.0">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <ns:sessionId>80101811881756</ns:sessionId>
+   </soapenv:Body>
+</soapenv:Envelope>
